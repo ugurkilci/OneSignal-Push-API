@@ -51,7 +51,7 @@ function sendMessage($apiid, $restapikey, $mesaj, $url){
       return $response;
   }
 
-  $response = sendMessage("//API id", "//Rest API Key", "//Url");
+  $response = sendMessage("//API id", "//Rest API Key", "//Mesaj", "//Url");
   $return["allresponses"] = $response;
   $return = json_encode( $return);
   print("\n\nJSON received:\n");
